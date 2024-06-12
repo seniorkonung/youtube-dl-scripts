@@ -2,7 +2,7 @@
 
 IMAGE_NAME="youtube-dl"
 DIR_NAME="files"
-
+ 
 if [ "$USER" != "root" ]; then
     echo "Для выполнения скрипта нужны права sudo!"
     exit 0
